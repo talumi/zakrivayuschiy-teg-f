@@ -5,8 +5,8 @@
 :root {
   --main-font-family: Inter-Variable;
   --accent-font-family: PressStart2P;
-  --content-inline-size: clamp(23.438rem, 30.516vw + 16.285rem, 43.75rem);
-  --dialog-inline-size: clamp(21.25rem, 1.596vw + 20.876rem, 22.313rem);
+  --content-inline-size: clamp(375px, 260.5634px + 30.5164vw, 700px);
+  --dialog-inline-size: clamp(349px, 346.1831px + 0.7512vw, 357px);
   --border-thickness: 2px;
   --heart-active-color: red;
   --card-title-weight: 700;
