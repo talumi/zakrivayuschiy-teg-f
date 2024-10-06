@@ -5,37 +5,34 @@
 :root {
   --main-font-family: Inter-Variable;
   --accent-font-family: PressStart2P;
+  --content-inline-size: clamp(23.438rem, 30.516vw + 16.285rem, 43.75rem);
+  --dialog-inline-size: clamp(21.25rem, 1.596vw + 20.876rem, 22.313rem);
+  --border-thickness: 2px;
+  --heart-active-color: red;
   --card-title-weight: 700;
   --card-text-weight: 400;
   --background-color: white;
   --accent-color: black;
+  --text-stroke: white;
+  --button-text-color: white;
+  --contour-heart-color: black;
   --background-image:
     repeating-linear-gradient(
       90deg, 
       #d3d3d3, 
       #d3d3d3 2px, 
       transparent 2px, 
-      transparent 4px),
-
+      transparent 4px
+    ),
     repeating-linear-gradient(
       #d3d3d3, 
       #d3d3d3 2px, 
       transparent 2px, 
-      transparent 4px),
-
+      transparent 4px
+    ),
     linear-gradient(
       #e7e7e7,
       #e7e7e7 0.01%,
       #1a1a1a
-      );
-
-  
-  --content-inline-size: clamp(23.438rem, 30.516vw + 16.285rem, 43.75rem);
-  --save-button-block-size: 55px;
-  --text-stroke: white;
-  --button-text-color: white;
-  --contour-heart-color: black;
-  --heart-active-color: red;
-  --dialog-inline-size: clamp(21.25rem, 1.596vw + 20.876rem, 22.313rem);
-  --border-thickness: 2px;
+    );
 }
