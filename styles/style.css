@@ -294,6 +294,7 @@
   padding: 0;
   background-color: transparent;
   transition: border 0.3s ease;
+  cursor: pointer;
 }
 
 .card__icon-button:focus {
